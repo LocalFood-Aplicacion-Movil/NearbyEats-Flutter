@@ -66,3 +66,25 @@ POST
 
 POST
 /api/v1/Authentication/sign-up
+
+
+Calculations
+
+
+GET
+/api/v1/Calculations
+
+
+
+POST
+/api/v1/Calculations
+
+
+
+GET
+/api/v1/Calculations/{id}
+
+
+
+DELETE
+/api/v1/Calculations/{id}
