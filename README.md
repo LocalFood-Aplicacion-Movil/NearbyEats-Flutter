@@ -2,6 +2,7 @@
 
 App móvil en Flutter para encontrar el restaurante más conveniente para un grupo, calculando un puntaje de viabilidad según la ubicación geográfica de cada colaborador.
 
+
 ## Funcionalidades
 
 - **Autenticación**: inicio de sesión con JWT contra el backend.
@@ -51,3 +52,17 @@ Navegación con `go_router` (`lib/core/router/app_router.dart`), estado con `flu
 ## Backend
 
 La app consume una API REST (.NET) cuya URL base está configurada en `lib/core/constants/api_constants.dart`.
+
+los endpints son 
+
+
+Authentication
+
+
+POST
+/api/v1/Authentication/sign-in
+
+
+
+POST
+/api/v1/Authentication/sign-up
