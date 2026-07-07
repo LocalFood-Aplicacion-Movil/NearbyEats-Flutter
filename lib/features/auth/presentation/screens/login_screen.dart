@@ -112,6 +112,11 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     ),
                   ),
                 ),
+                const SizedBox(height: 16),
+                TextButton(
+                  onPressed: () => context.push('/terms'),
+                  child: const Text('Términos y Condiciones'),
+                ),
               ],
             ),
           ),

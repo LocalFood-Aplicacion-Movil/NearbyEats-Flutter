@@ -53,6 +53,7 @@ class RestaurantListScreen extends ConsumerWidget {
         selectedIndex: 0,
         onDestinationSelected: (i) {
           if (i == 1) context.go('/favorites');
+          if (i == 2) context.go('/groups');
         },
         destinations: const [
           NavigationDestination(
@@ -62,6 +63,10 @@ class RestaurantListScreen extends ConsumerWidget {
           NavigationDestination(
             icon: Icon(Icons.favorite),
             label: 'Favoritos',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.groups),
+            label: 'Grupos',
           ),
         ],
       ),
